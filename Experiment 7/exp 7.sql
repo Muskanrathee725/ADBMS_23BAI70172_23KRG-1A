@@ -89,3 +89,4 @@ SELECT * FROM tbl_employee_audit;
 -- Delete and verify audit
 DELETE FROM tbl_employee WHERE emp_name = 'Muskan';
 SELECT * FROM tbl_employee_audit;
+
