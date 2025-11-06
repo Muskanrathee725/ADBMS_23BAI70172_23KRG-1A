@@ -91,4 +91,5 @@ SELECT *
 FROM mv_random_tabl;
 
 ------------------------ If data in base table changes → refresh MV---------------------
+
 REFRESH MATERIALIZED VIEW mv_random_tabl;
